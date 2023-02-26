@@ -1,13 +1,142 @@
+/* * {
+  font-family: "dm serif display", serif;
+} */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
+  color: rgb(112, 128, 149);
+  font-family: "PT Sans Caption", sans-serif !important;
+}
+.top {
+  padding: 0 !important;
+}
+.top2 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background-color: rgb(236, 232, 217) !important;
+  transition: 0.5s ease;
+}
+.top2.scrolled {
+  background: #fff !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hero {
+  background-color: rgb(236, 232, 217);
+}
+.logo {
+  margin-left: -20px;
+}
+.top-p {
+  font-size: 14px;
+  color: rgb(112, 128, 149);
+}
+h1 {
+  font-family: "dm serif display", serif;
+  font-size: 65px !important;
+  color: rgb(56, 74, 98) !important;
+}
+.wts {
+  font-family: "dm serif display", serif;
+  font-size: 27px !important;
+  color: rgb(56, 74, 98) !important;
+}
+.drag {
+  margin-right: -40px;
+}
+.top-p2 {
+  margin-right: -35px;
+}
+.pill-span {
+  border: 1px solid rgb(112, 128, 149);
+  width: max-content;
+}
+.top-nav {
+  background-color: rgb(247, 246, 244);
+}
+
+.track {
+  margin-left: -20px;
+}
+.search {
+  border: none !important;
+}
+.search-input {
+  border: none !important;
+}
+.starting {
+  font-size: 13px !important;
+}
+.button {
+  width: max-content;
+  background: rgb(221, 127, 129) !important;
+}
+.button:hover.span {
+  transform: translateX(100px);
+}
+.card {
+  border: none !important;
+}
+.arrow {
+  transition: 0.5s;
+}
+.button:hover .arrow {
+  margin-left: 5px;
+}
+.card-image {
+  transition: 0.5s;
+}
+.card-image:hover {
+  transform: scale(1.03);
+}
+.amina {
+  font-size: 15px !important;
+}
+.amba {
+  font-size: 14px !important;
+}
+@media only screen and (max-width: 1000px) {
+  .track {
+    display: none;
+  }
+
+  .top-p {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .help {
+    display: none;
+  }
+  .drag {
+    margin-left: 20px;
+  }
+  .top {
+    padding-right: 0 !important;
+  }
+  .pill-span {
+    margin-left: 130px;
+  }
+  .whatsapp {
+    margin-right: -100px;
+  }
+  .logo {
+    margin-left: 2px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .hand {
+    display: none;
+  }
+  h1 {
+    font-size: 45px !important;
+    padding-bottom: 20px;
+  }
+  #wts {
+    font-size: 32px !important;
+    margin-left: -55px !important;
+    padding-bottom: 0px !important;
+  }
+  .form1 {
+    padding-bottom: 10px;
+  }
 }
